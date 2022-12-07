@@ -1,0 +1,233 @@
+/*основний колір тексту #FFFFFF; */
+
+/*другорядний колір тексту #999999; */
+
+/*акцент колір (ховер) #00d6b4 */
+
+/*колір фону блоку список #e5e5e5 */
+
+/*колір блоку футер #222222 */
+
+/*колір тексту футер #222222 */
+
+/*основний колір тексту  #FFFFFF; */
+
+:root {
+  --primart-text-color: #ffffff;
+  --color-text: #999999;
+  --accent-color: #00d6b4;
+  --background-color: #e5e5e5;
+  --background-footer: #222222;
+  --color-text-footer: #c2c2c2;
+}
+
+/* p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul {
+  margin: 0;
+  padding-left: 0;
+  padding-right: 0;
+  list-style: none;
+}
+
+body {
+} */
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+/* блок герой */
+
+.hero {
+  background: url("../img/hero.jpg") center center/cover no-repeat;
+  max-width: 1440px;
+  height: 540px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.container {
+  outline: 1px solid red;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 970px;
+  height: auto;
+}
+.hero_header {
+  text-decoration: none;
+  margin: 0;
+
+  /* display: inline-block; */
+  display: flex;
+}
+
+.menu {
+  outline: 1px solid red;
+  margin-top: 28px;
+  width: 940px;
+  /* height: 60px; */
+  display: flex;
+  vertical-align: middle;
+}
+
+.hero_nav {
+  display: flex;
+}
+
+.hero_list {
+  margin: 0;
+  padding: 0;
+  margin-left: auto;
+  display: flex;
+  /* justify-content: center; */
+  /* align-items: center; */
+  list-style: none;
+  text-decoration: none;
+}
+
+.logo {
+  text-decoration: none;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 1.25;
+  color: var(--primart-text-color);
+  /* padding-right: 580px; */
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.hero_item {
+}
+
+.hero_link {
+  text-decoration: none;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 1.54;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: var(--color-text);
+}
+
+.hero_title {
+  display: block;
+  margin: 0;
+  padding: 0;
+  margin-left: auto;
+  margin-right: auto;
+  width: 465px;
+  padding-top: 138px;
+
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 53px;
+  color: var(--primart-text-color);
+}
+
+.portfolio_title {
+  margin: 0;
+  padding: 0;
+}
+
+.btn {
+  border: 1px solid #00d6b4;
+  border-radius: 3px;
+  color: var(--accent-color);
+  background: transparent;
+  padding: 10px 26px;
+  margin-top: 29px;
+}
+
+/* блок герой */
+
+.portfolio {
+  background-color: var(--background-footer);
+  max-width: 1440px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.portfolio_title {
+  text-align: center;
+  padding-top: 49px;
+  padding-bottom: 33px;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 1.2;
+  color: var(--primart-text-color);
+}
+
+.portfolio_list {
+  /* outline: 1px solid red; */
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding-bottom: 101px;
+  /* margin-top: -20px; */
+  /* margin-left: -20px; */
+}
+
+.item {
+  gap: 20px;
+  display: block;
+  /* flex-basis: calc(100% / 3 - 20px); */
+  /* margin-left: 20px;
+  margin-top: 20px; */
+}
+
+/* секція футер */
+
+.footer {
+  background-color: var(--background-footer);
+  max-width: 1440px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.footer_title {
+  margin: 0;
+  padding-top: 35px;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.22;
+  text-align: center;
+  text-transform: uppercase;
+  color: var(--color-text-footer);
+}
+
+.footer_paragraph {
+  margin: 0;
+  padding-top: 10px;
+  padding-bottom: 37px;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.5;
+  color: var(--color-text);
+}
